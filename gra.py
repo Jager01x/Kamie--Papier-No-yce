@@ -46,16 +46,17 @@ while gracz1 < 3 and gracz2 < 3:
     else:
         print("Wybierz papier, kamień lub nożyczki!")
 
-        print(f"Gracz 1: {gracz1}, Gracz 2: {gracz2} ")
-
 if gracz1 == 3:
-        print("Koniec gry, wygrał Gracz 1!")
+        print(f"Gracz 1: {gracz1}, Gracz 2: {gracz2} \n")
+        print("Koniec gry, wygrał Gracz 1!\n")
         sys.exit()
 
 if gracz2 == 3:
-        print("Koniec gry, wygrał Gracz 2!")
+        print(f"Gracz 1: {gracz1}, Gracz 2: {gracz2} \n")
+        print("Koniec gry, wygrał Gracz 2!\n")
         sys.exit()
 
 if gracz1 == gracz2:
-        print("Nikt nie wygrał, remis!")
+        print(f"Gracz 1: {gracz1}, Gracz 2: {gracz2} \n")
+        print("Nikt nie wygrał, remis!\n")
         sys.exit()
